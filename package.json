@@ -1,24 +1,12 @@
 {
-    "name": "@fleetbase/storefront-engine",
+    "name": "cvf-storefront-engine",
     "version": "0.3.9",
     "description": "Headless Commerce & Marketplace Extension for Fleetbase",
     "fleetbase": {
         "route": "storefront",
         "dashboard": "storefront/int/v1/dashboard"
     },
-    "keywords": [
-        "fleetbase-extension",
-        "fleetbase-storefront",
-        "fleetbase",
-        "e-commerce",
-        "headless-commerce",
-        "headless-marketplace",
-        "ember-engine",
-        "ember-addon"
-    ],
-    "repository": "https://github.com/fleetbase/storefront",
     "license": "MIT",
-    "author": "Fleetbase Pte Ltd <hello@fleetbase.io>",
     "directories": {
         "app": "app",
         "addon": "addon",
@@ -43,9 +31,9 @@
         "publish:github": "npm config set '@fleetbase:registry' https://npm.pkg.github.com/ && npm publish"
     },
     "dependencies": {
-        "@fleetbase/ember-core": "^0.2.11",
-        "@fleetbase/ember-ui": "^0.2.16",
-        "@fleetbase/fleetops-data": "^0.1.15",
+        "cvf-ember-core": "*",
+        "cvf-ember-ui": "*",
+        "cvf-fleetops-data": "*",
         "@babel/core": "^7.23.2",
         "@fortawesome/ember-fontawesome": "^0.4.1",
         "@fortawesome/fontawesome-svg-core": "^6.4.0",
